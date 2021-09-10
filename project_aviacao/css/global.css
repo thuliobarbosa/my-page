@@ -1,0 +1,226 @@
+@font-face  {
+    font-family: 'Source Code Pro', monospace;
+    src: url(../fonts/SourceCodePro-BoldItalic.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    animation: grandient 5s ease alternate infinite;
+    background: linear-gradient(-45deg, #040404, #1d1b1b, #812f2f, #932828, #9e2121 ) no-repeat;
+    background-size: 300% 300%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.logo-social-network {
+    padding: 5px;
+    margin-right: 5px;
+    width: 35px;
+}
+
+.logo-social-network:hover {
+    cursor: pointer;
+}
+
+.phone-number {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+.photo-cartoon {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-title-span {
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: #1d1b1b;
+    border-top: 1px dotted #ddd;
+    padding: 20px;
+}
+
+.hello-span {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: #c4343c;
+    display: block;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+.text-about-me p{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.quote {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.title-quote {
+    font-size: 50px;
+    color: #c4343c;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quotation-marks {
+    font-size: 20px;
+    color: #c4343c;
+    font-size: 20px;
+}
+
+.author {
+    display: block;
+    color: #c4343c;
+}
+
+.title-two  {
+    text-align: center;
+}
+
+.title-two h2 {
+    color: #c4343c;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.title-two p {
+    font-weight: bold;
+}
+
+.what-do-i-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    width: 33%;
+    margin-right: 20px;
+}
+
+.box .img {
+    width: 200px;
+    margin-left: 35px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.container-skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-my-skills {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #c4343c;
+    font-weight: bold;
+}
+
+.box-skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 50px;
+    object-fit: contain;
+    border: 1px solid #1d1b1b;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 20px 20px 0px 20px;
+}
+
+.box-skill img {
+    width: 90px;
+}
+
+.box-skill p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.bottom-line {
+    border-bottom: 1px solid #000;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+
+@keyframes grandient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+
+}
