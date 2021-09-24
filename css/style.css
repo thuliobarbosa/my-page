@@ -18,6 +18,7 @@ body {
     background-size: 300% 300%;
     height: 100vh;
     padding: 20px;
+    width: 100%;
 }
 
 .icon {
@@ -279,3 +280,113 @@ body {
     }
   }
 /****************************************************************/
+
+@media (min-width: 300px) and (max-width: 580px) {
+    #home{
+        background-size: 300% 300%;
+        height: 100vh;
+        padding: 10px 0px 0px 0px;
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu-item {
+        display: none;
+    }
+    .icon {
+        padding-left: 5px;
+        margin-bottom: 10px;
+        width: 18px;
+    }
+    .photo-cartoon {
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+    .main-title {
+        font-size: 18px;
+        color: #fff;
+        margin-top: 50px;
+    }
+    .main-title-span {
+        text-transform: lowercase;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .who-am-i {
+        padding: 10px;
+    }
+
+    .box-who-am-i {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    
+    .img-profile-circle {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .hello-personalized {
+        display: block;
+        font-size: 32px;
+        color: #c4343c;
+        padding: 10px;
+    }
+    
+    .box-what-do-i-do {
+        background-color: #383838;
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    
+    .title-what-do-i-do {
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    
+    .text-what-do-i-do {
+        width: 100%;
+        margin: 40px 0px 100px 0px;
+        font-size: 18px;
+    }
+
+    .img-what-do-i-do {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .label  {
+        display: block;
+        margin-bottom: 5px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .mandatory {
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .input {
+        height: 20px;
+    }
+
+    .text-area {
+        width: 106%;
+    }
+
+    .waves {
+        display: none;
+    }
+
+    .img-skills {
+        width: 45px;
+    }
+}
